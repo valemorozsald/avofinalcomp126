@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background-color:#2C5530;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.menu-items{
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.menu-items a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.menu-items a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+} 
+
+.menu-items a:hover{
+    text-decoration: none;
+    color: rgb(196, 118, 17);
+}
+
+.containter {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "title title title title title"
+    "region-content region-content region-content region-content region-content"
+    "region-content region-content region-content region-content region-content"
+    "region-content region-content region-content region-content region-content"
+    "buttons buttons buttons buttons buttons"
+    "most-popular-parks most-popular-parks most-popular-parks most-popular-parks most-popular-parks"
+    "most-popular-parks most-popular-parks most-popular-parks most-popular-parks most-popular-parks"
+    "most-popular-parks most-popular-parks most-popular-parks most-popular-parks most-popular-parks"; 
+}
+
+.title { 
+    grid-area: title; 
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #fef9ef;
+}
+
+.region-content { 
+    grid-area: region-content;
+    background-color: #fef9ef;
+    padding: 1rem;
+}
+
+.most-popular-parks { 
+    grid-area: most-popular-parks; 
+    background-color: #fef9ef;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.content-container {
+    padding: 2rem;
+    background-color: #739E82; 
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-container img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.content-container .text-container {
+    flex-grow: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    grid-area: buttons;
+    background-color: #fef9ef;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #2C5530;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20vw;
+}
+
+
+.park-links-container {
+    background-color: #D38D5D;
+    padding: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+    list-style-type: none;
+}
+
+#img-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 15px;
+}
+
+#content-text {
+    font-size: larger;
+}
+
+footer {
+    background-color:#2C5530;
+    color: whitesmoke;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .header {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .menu-items {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .containter {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-template-areas: 
+        "title"
+        "region-content"
+        "buttons"
+        "most-popular-parks"
+        "most-popular-parks"
+        "most-popular-parks"
+        "most-popular-parks";
+    }
+
+    .content-container {
+        flex-direction: column;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .content-container img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .content-container .text-container {
+        max-width: 100%;
+    }
+
+    .park-links-container {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .button {
+        width: 35vw;
+    }
+}
