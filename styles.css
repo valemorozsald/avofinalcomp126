@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background-color:#2C5530;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.menu-items{
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.menu-items a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.menu-items a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.menu-items a:hover{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.menu-items a:active{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.mission {
+    width: 96%;
+    height: 15vh;
+    background-image: url(https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 4px;
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.ms {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: medium;
+    text-align: center;
+}
+
+.desc {
+    color:whitesmoke;
+    font-size: 12px;
+    margin-bottom: 2px;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.history{
+    margin: 2%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 200px;
+    margin-left: 2%;
+    background-image: url(/images/logo.svg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.regions {
+    text-align: center;
+    padding: 4px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 4px;
+    height: 30vh;
+    justify-content: center;
+}
+
+.content-1 {
+    width: 96%;
+    height: 20vh;
+    background-color: #739E82;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.content-1 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content-1 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-1 ul li img {
+    width: 240px;
+    height: 140px;
+}
+
+.content-1 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lista {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: auto;
+} 
+
+.learn{
+    text-align: center;
+    padding: 4px;
+}
+
+.forum {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+label, input[type="email"], input[type="text"] {
+    margin-bottom: 10px;
+    flex-basis: 100%;
+}
+
+input[type="submit"] {
+    align-self: flex-end;
+    margin-left: 10px;
+    background-color: #8B4513;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: #2C5530;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    list-style: none;
+    gap: 20px;
+}
