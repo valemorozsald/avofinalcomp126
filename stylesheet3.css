@@ -23,17 +23,16 @@
     background-color:#2C5530;
     color: whitesmoke;
     padding: 1REM;
- }
+}
 
- .navbar{
+.navbar{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
- }
- 
- 
- .menu-items{
+}
+
+.menu-items{
     padding: 1rem;
     color: whitesmoke;
  }
