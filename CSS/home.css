@@ -30,6 +30,15 @@ body{
 .my-svg path {
     fill: #FEF9EF;
 }
+@media screen and (max-width: 700px) {
+    #avo {
+        display: none;
+    }
+
+    .menu-items {
+        margin-right: 0;
+    }
+}
 
 .menu-items{
     padding: 30px;
@@ -60,34 +69,41 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: auto;
 }
 
 .mission {
-    width: 96%;
-    height: 15vh;
+    width: 100%;
+    height: 8rem;
     background-image: url(https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 4px;
     display: flex;  
+    padding: .5rem;
     align-items: center; 
     justify-content: center; 
     flex-direction: column;
 }
+@media screen and (max-width: 900px) {
+    .ms {
+        display: none;
+    }
 
+    .desc {
+        margin-right: 0;
+    }
+}
 .ms {
+    width: 100%;
     color: whitesmoke;
-    font-size: 24px;
     font-weight: medium;
     text-align: center;
 }
 
 .desc {
     color:whitesmoke;
-    font-size: 20;
-    margin-bottom: 2px;
-    width: 60%;
+    margin-bottom: .2rem;
+    width: 100%;
     text-align: center;
     
 }
@@ -233,11 +249,11 @@ button[type="submit"]:hover {
 }  
 
 .footer{
-    margin-top: 20px;
+    margin-top: 1rem;
     background-color: #2C5530;
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .contact {
