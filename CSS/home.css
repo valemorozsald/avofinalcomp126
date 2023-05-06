@@ -164,6 +164,10 @@ h5 {
     margin:1rem;
 }
 
+ul#regionpics li a:hover img {
+    border: 4px solid yellow;
+}
+
 h4 {
     margin-top: 0;
     position: absolute;
