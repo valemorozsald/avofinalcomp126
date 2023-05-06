@@ -30,6 +30,16 @@ body{
     fill: #FEF9EF;
 }
 
+@media screen and (max-width: 700px) {
+    #avo {
+        display: none;
+    }
+
+    .menu-items {
+        margin-right: 0;
+    }
+}
+
 .menu-items{
     padding: 30px;
     color: whitesmoke;
