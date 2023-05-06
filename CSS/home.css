@@ -18,8 +18,17 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items:center ;
     text-decoration: none;
+ }
+
+ #avo {
+    margin-right: auto;
+    padding-left: 3rem;
+}
+.my-svg path {
+    fill: #FEF9EF;
 }
 
 .menu-items{
