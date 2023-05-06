@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    text-decoration: none;
+ }
+
+ #avo {
+    margin-right: auto;
+    padding-left: 3rem;
+}
+.my-svg path {
+    fill: #FEF9EF;
+}
+
+.menu-items{
+    padding: 2rem;
+    color: whitesmoke;
+    margin-right: 1rem;
+ }
+ 
+ 
+ .menu-items a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+.menu-items a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ 
+ 
+ .menu-items a:hover{
+    text-decoration: none;
+    color: rgb(196, 118, 17);
+ }
+ 
+ 
+ .menu-items a:active{
+    text-decoration: none;
+    color: whitesmoke;
+ }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #2C5530;
+}
+
+.title-card {
+    background-color: #FEF9EF;
+    padding: 1rem;
+
+}
+.card {
+    padding: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-color: #FEF9EF;
+}
+
+ @media screen and (max-width: 700px) {
+    #avo {
+        display: none;
+    }
+
+    .menu-items {
+        margin-right: 0;
+    }
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    background-color: #2C5530;
+
+}
+.foot {
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #2C5530;
+    color: #FEF9EF;
+}
