@@ -20,9 +20,9 @@ body{
     justify-content: center;
     align-items:center ;
     text-decoration: none;
- }
+}
 
- #avo {
+#avo {
     margin-right: auto;
     padding-left: 3rem;
 }
@@ -157,6 +157,7 @@ ul {
     justify-content: space-between;
     font-size: larger;
     list-style-type: none;
+    text-decoration: none;
 }
 
 #img-1 {
