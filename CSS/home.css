@@ -120,7 +120,7 @@ body{
 
 .wrapper {
     display: flex;
-    padding: 4px;
+    padding: 1rem;
     height: 30vh;
     justify-content: center;
 }
@@ -130,7 +130,8 @@ body{
     height: 20vh;
     background-color: #739E82;
     color: whitesmoke;
-    padding: 20px;
+    padding: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 .content-1 ul {
