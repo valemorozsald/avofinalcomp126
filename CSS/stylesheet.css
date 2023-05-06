@@ -38,13 +38,13 @@
  .menu-items a:link{
     text-decoration: none;
     color:whitesmoke;
- }
- 
- 
- .menu-items a:visited{
+}
+
+
+.menu-items a:visited{
     text-decoration: none;
-    color: antiquewhite;
- }
+    color: whitesmoke;
+}
  
  
  .menu-items a:hover{
