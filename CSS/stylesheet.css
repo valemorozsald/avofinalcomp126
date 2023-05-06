@@ -6,6 +6,7 @@
     color: #FEF9EF;
 }
 
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -18,20 +19,31 @@
     width: 100%;
     background-color:#2C5530;
     color: whitesmoke;
-    padding: 1REM;
+    padding: .5rem;
  }
+
+ /*nav with the logo*/
 
  .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items:center ;
     text-decoration: none;
  }
- 
- 
+
+ #avo {
+    margin-right: auto;
+    padding-left: 3rem;
+}
+.my-svg path {
+    fill: #FEF9EF;
+}
+
  .menu-items{
-    padding: 30px;
+    padding: 2rem;
     color: whitesmoke;
+    margin-right: 1rem;
  }
  
  
@@ -57,6 +69,16 @@
     text-decoration: none;
     color: whitesmoke;
  }
+
+ @media screen and (max-width: 700px) {
+    #avo {
+        display: none;
+    }
+
+    .menu-items {
+        margin-right: 0;
+    }
+}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
