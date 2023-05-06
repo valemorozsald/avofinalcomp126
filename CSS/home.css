@@ -70,6 +70,7 @@ body{
     justify-content: center;
     align-items: center;
     height: auto;
+    padding-top: 1rem;
 }
 
 .mission {
