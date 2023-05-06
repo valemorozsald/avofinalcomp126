@@ -1,84 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!-- Custom CSS -->
-    <link href="pacificnw.css" rel="stylesheet">
-    
-    <!--icons-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"> 
-    <title>National Parks!</title>
-    </head>
-    
-    <body>
-        <header class="header-box">
+    <meta name="viewport" content="width=device-width, initial-scale-1, shrink-to-fit=no">
+    <title>Final Project</title>
+    <link href="CSS/pacificwest.css" rel="stylesheet"></link>
+</head>
+
+<body>
+    <header class="header box">
         <div class="navbar">
-            <div class="menu-items">
-                <a href="/index.html">HOME</a></div>
-            <div class="menu-items">
-                <a href="https://www.youtube.com/watch?v=LZgeIReY04c&list=PL6WHJUJ5a3FmDPxntvFlzU_v_kKkSOQDs&index=27">CONTACT</a></div>
-            <div class="menu-items">
-                <a href="/html/visit.html">PLAN YOUR VISIT</a></div>
+            <div class="menu-items"><a href="home.html">HOME</a></div>
+            <div class="menu-items"><a href="home.html">MAILING LIST</a></div>
+            <div class="menu-items"><a href="visit.html">PLAN YOUR VISIT</a></div>
         </div>
     </header>
-    
-    <!--card for each popular park-->
-    <div class="cards">
-    <!--grand canyon-->
-    <div class="row row-cols-1 row-cols-sm-2 g-3">
-        <div class="col">
-            <div class="card">
-            <img src="northeast/acadia(maine).jpeg" class="card-img-top" alt="card-grid-image">
-            <div class="card-body">
-                <h5 class="card-title">Acadia National Park</h5>
-                <p class="card-text">Located in Maine, this park offers scenic vistas of rugged coastline, granite peaks, and pristine lakes. Visitors can enjoy hiking, biking, camping, and a variety of water-based activities.</p>
-            </div>
+    <div class="container">
+        <div class="title">
+            <h1>NORTHEAST REGION</h1>
+        </div>
+        <div class="region-content">
+            <div class="content-container">
+                <img src="images/mapnorth.jpeg" alt="pacifc west map" id="img-1">
+                <div class="text-container">
+                    <p id="content-text">The Northeast region of the National Parks System is a diverse and historic area, offering visitors a chance to explore a range of parks that highlight the region's natural beauty and cultural heritage. One of the most famous parks in the Northeast is Acadia National Park, which is located in Maine and features stunning coastal scenery, including granite peaks, rocky cliffs, and sandy beaches. Another notable park in the region is the Shenandoah National Park in Virginia, which is known for its scenic Skyline Drive and boasts a diverse array of wildlife, including black bears and white-tailed deer. Other parks in the Northeast include the Cape Cod National Seashore in Massachusetts, which features pristine beaches and sand dunes, and the Statue of Liberty National Monument in New York, which celebrates the enduring symbol of freedom and democracy. Overall, the Northeast region of the National Parks System offers visitors a chance to explore the natural and cultural wonders of the area and experience the unique history and character of the region.</p>
+                </div>
             </div>
         </div>
-        <!--zion-->
-        <div class="col">
-            <div class="card">
-            <img src="northeast/shenandoah.jpeg" class="card-img-top" alt="card-grid-image">
-            <div class="card-body">
-                <h5 class="card-title">Shenandoah National Park</h5>
-                <p class="card-text">Situated in Virginia, this park features the scenic Blue Ridge Mountains and the famous Skyline Drive. The park offers hiking trails, campgrounds, and stunning views of the Shenandoah Valley.</p>
-            </div>
-            </div>
+        <div class="buttons">
+            <button class="button">REVIEWS</button>
+            <button class="button">PARKS</button>
         </div>
-        <!--yellowstone-->
-        <div class="col">
-            <div class="card">
-            <img src="northeast/delawarewatergap.jpeg" class="card-img-top" alt="card-grid-image">
-            <div class="card-body">
-                <h5 class="card-title">Delaware Water Gap National Park</h5>
-                <p class="card-text">
-                    Located on the border of Pennsylvania and New Jersey, the Delaware Water Gap offers visitors the chance to hike, swim, boat, and fish in a stunning natural setting.</p>
-            </div>
-            </div>
-        </div>
-        <!--grand teton-->
-        <div class="col">
-            <div class="card">
-            <img src="northeast/capecod.png"" class="card-img-top" alt="card-grid-image">
-            <div class="card-body">
-                <h5 class="card-title">Cape Cod National Park</h5>
-                <p class="card-text"> This Massachusetts park is famous for its sandy beaches, dunes, and salt marshes. Visitors can explore historic lighthouses, bike along scenic paths, and observe a variety of wildlife.</p>
-            </div>
+        <div class="most-popular-parks">
+            <h1>MOST POPULAR PARKS</h1>
+            <div class="park-links-container">
+                <ul>
+                    <li>1. Acadia National Park</li>
+                    <li>2. Shenandoah National Park</li>
+                    <li>3. Cape Cod National Seashore</li>
+                    <li>4. Great Falls National Park</li>
+                </ul>
             </div>
         </div>
     </div>
-        </div>
-    </div>
-    <!--footer-->
-    <div class="foot">
-        <h3>
-            AVO COMP @126
-        </h3>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+    <footer>
+        <h3>SIGN UP FOR OUR MAILING LIST</h3>
+    </footer>
+</body>
