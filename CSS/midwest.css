@@ -135,6 +135,12 @@ body{
     width: 20vw;
 }
 
+.button:hover {
+    background-color: #739E82;
+    color: black;
+    font-weight: bold;
+}
+
 
 .park-links-container {
     background-color: #D38D5D;

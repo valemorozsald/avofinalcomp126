@@ -20,9 +20,9 @@ body{
     justify-content: center;
     align-items:center ;
     text-decoration: none;
- }
+}
 
- #avo {
+#avo {
     margin-right: auto;
     padding-left: 3rem;
 }
@@ -135,6 +135,11 @@ body{
     width: 20vw;
 }
 
+.button:hover {
+    background-color: #739E82;
+    color: black;
+    font-weight: bold;
+}
 
 .park-links-container {
     background-color: #D38D5D;
