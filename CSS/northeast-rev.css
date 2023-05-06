@@ -68,15 +68,12 @@
 
 .menu-items a:hover{
     text-decoration: none;
-    color: #F0B131;
+    color: rgb(196, 118, 17);
 }
 
 .menu-items a:active{
     text-decoration: none;
     color: whitesmoke;
-}
-.menu-items a:focus {
-    color:aqua;
 }
 
 body {
