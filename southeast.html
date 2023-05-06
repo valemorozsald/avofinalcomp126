@@ -1,50 +1,84 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1, shrink-to-fit=no">
-    <title>Final Project</title>
-    <link href="CSS/southeast.css" rel="stylesheet"></link>
-</head>
-
-<body>
-    <header class="header box">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link href="southeast.css" rel="stylesheet">
+    
+    <!--icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"> 
+    <title>National Parks!</title>
+    </head>
+    
+    <body>
+        <header class="header-box">
         <div class="navbar">
-            <div class="menu-items"><a href="home.html">HOME</a></div>
-            <div class="menu-items"><a href="home.html">MAILING LIST</a></div>
-            <div class="menu-items"><a href="visit.html">PLAN YOUR VISIT</a></div>
+            <div class="menu-items">
+                <a href="/index.html">HOME</a></div>
+            <div class="menu-items">
+                <a href="https://www.youtube.com/watch?v=LZgeIReY04c&list=PL6WHJUJ5a3FmDPxntvFlzU_v_kKkSOQDs&index=27">CONTACT</a></div>
+            <div class="menu-items">
+                <a href="/html/visit.html">PLAN YOUR VISIT</a></div>
         </div>
     </header>
-    <div class="container">
-        <div class="title">
-            <h1>SOUTHEAST REGION</h1>
-        </div>
-        <div class="region-content">
-            <div class="content-container">
-                <img src="images/mapsouth.jpeg" alt="southeast map" id="img-1">
-                <div class="text-container">
-                    <p id="content-text">The Southeast region of the National Parks System is home to some of the most iconic and historically significant parks in the United States. This region includes parks such as the Great Smoky Mountains, the Everglades, and the Shenandoah, each with its own unique landscapes, wildlife, and cultural history. The Great Smoky Mountains, straddling the border between North Carolina and Tennessee, is the most visited national park in the country, with over 11 million visitors each year. The Everglades, located in southern Florida, is the largest subtropical wilderness in the country, home to an incredible diversity of plant and animal species, including the endangered Florida panther. The Shenandoah, located in Virginia's Blue Ridge Mountains, offers visitors stunning views of the surrounding landscape and a chance to explore the region's rich history, including the stories of the Native American tribes who once lived there and the struggles of early settlers to survive in the rugged wilderness. Together, these parks showcase the natural beauty and cultural richness of the Southeast and offer visitors a chance to connect with this unique region.</p>
-                </div>
+    
+    <!--card for each popular park-->
+    <div class="cards">
+    <!--grand canyon-->
+    <div class="row row-cols-1 row-cols-sm-2 g-3">
+        <div class="col">
+            <div class="card">
+            <img src="southeast/Oconaluftee_Valley_Overlook_low_rez_for_web_or_social_8f145a91-e25c-4e1d-ba6b-e719fb510523.jpg" class="card-img-top" alt="card-grid-image">
+            <div class="card-body">
+                <h5 class="card-title">Great Smoky Mountains National Park</h5>
+                <p class="card-text">Located in Tennessee and North Carolina, this park is known for its misty mountain views, diverse wildlife, and historic buildings.</p>
+            </div>
             </div>
         </div>
-        <div class="buttons">
-            <button class="button">REVIEWS</button>
-            <button class="button">PARKS</button>
+        <!--zion-->
+        <div class="col">
+            <div class="card">
+            <img src="southeast/everglades.jpg" class="card-img-top" alt="card-grid-image">
+            <div class="card-body">
+                <h5 class="card-title">Everglades National Park</h5>
+                <p class="card-text">Spanning 1.5 million acres in southern Florida, this park is home to unique wetland ecosystems, including sawgrass marshes, mangrove forests, and cypress swamps.</p>
+            </div>
+            </div>
         </div>
-        <div class="most-popular-parks">
-            <h1>MOST POPULAR PARKS</h1>
-            <div class="park-links-container">
-                <ul>
-                    <li>1. Great Smokey Mountains National Park</li>
-                    <li>2. Mammoth Cave National Park</li>
-                    <li>3. Congaree National Park</li>
-                    <li>4. Everglades National Park</li>
-                </ul>
+        <!--yellowstone-->
+        <div class="col">
+            <div class="card">
+            <img src="southeast/congaree.webp" class="card-img-top" alt="card-grid-image">
+            <div class="card-body">
+                <h5 class="card-title">Cogaree National Park</h5>
+                <p class="card-text">
+                    In South Carolina, Congaree is home to one of the largest remaining old-growth bottomland hardwood forests in the United States, as well as abundant wildlife and hiking trails.</p>
+            </div>
+            </div>
+        </div>
+        <!--grand teton-->
+        <div class="col">
+            <div class="card">
+            <img src="southeast/mammoth.jpeg"" class="card-img-top" alt="card-grid-image">
+            <div class="card-body">
+                <h5 class="card-title">Mammoth Cave National Park</h5>
+                <p class="card-text"> Located in Kentucky, this park is home to the world's longest known cave system, with more than 400 miles of explored passageways. Above ground, visitors can also explore the park's forests and river valleys.</p>
+            </div>
             </div>
         </div>
     </div>
-    <footer>
-        <h3>SIGN UP FOR OUR MAILING LIST</h3>
-    </footer>
-</body>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="foot">
+        <h3>
+            AVO COMP @126
+        </h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
