@@ -45,9 +45,11 @@ body{
     color: whitesmoke;
 }
 
-.menu-items a:hover{
+.menu-items a:hover,
+.menu-items:focus {
     text-decoration: none;
-    color: rgb(196, 118, 17);
+    color: #f0b131;
+    border: 1px solid white;
 }
 
 .containter {
