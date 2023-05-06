@@ -199,16 +199,21 @@ label, input[type="email"], input[type="text"] {
     padding: 0.75rem;
 }
 
-input[type="submit"] {
-    align-self: flex-end;
-    margin-left: 10px;
-    background-color: #8B4513;
-    color: white;
-    padding: 10px;
+button[type="submit"] {
+    width: 33%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #2C5530;
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
 }
+
 
 .footer{
     margin-top: 20px;
