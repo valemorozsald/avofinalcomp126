@@ -57,14 +57,16 @@ body{
 
 .menu-items a:hover{
     text-decoration: none;
-    color: rgb(196, 118, 17);
+    color: #F0B131;
 }
 
 .menu-items a:active{
     text-decoration: none;
     color: whitesmoke;
 }
-
+.menu-items a:focus {
+    color:aqua;
+}
 .container {
     display: flex;
     justify-content: center;

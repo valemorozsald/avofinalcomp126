@@ -57,7 +57,10 @@ body{
 
 .menu-items a:hover{
     text-decoration: none;
-    color: rgb(196, 118, 17);
+    color: #F0B131;
+}
+.menu-items a:focus {
+    color:aqua;
 }
 
 .containter {

@@ -59,7 +59,7 @@
 
 .menu-items a:hover{
     text-decoration: none;
-    color: rgb(196, 118, 17);
+    color: #F0B131;
 }
 
 .menu-items a:active{
@@ -126,7 +126,7 @@ body {
 
 .button-1:hover {
     background-color: #D38D5D;
-    color: #FEF9EF;
+    color: #000000;
 }
 
 .card-body {
@@ -150,7 +150,7 @@ h5 {
     flex-direction: column;
     padding: 1rem;
     background-color:#739E82;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h4 {
