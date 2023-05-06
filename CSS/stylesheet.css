@@ -128,7 +128,7 @@ body {
 
 .button-1:hover {
     background-color: #D38D5D;
-    color: #FEF9EF;
+    color: #000000;
 }
 
 .card-body {
@@ -152,7 +152,7 @@ h5 {
     flex-direction: column;
     padding: 1rem;
     background-color:#739E82;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h4 {
